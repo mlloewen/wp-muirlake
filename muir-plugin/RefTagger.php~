@@ -1,0 +1,26 @@
+<?php
+/* 
+Plugin Name: biblyshortcode
+Plugin URI: http://www.logos.com/reftagger
+Description: Transform Bible references into links to the full text of the verse.
+Author: Logos Bible Software
+Version: 1.0
+Author URI: http://www.logos.com/
+*/
+
+
+// Add Shortcode
+function custom_bibly() {
+
+	// Code
+	return '<script src="http://www.blueletterbible.org/scripts/blbToolTip/BLB_ScriptTagger-min.js" type="text/javascript"></script>
+<script type="text/javascript">
+BLB.Tagger.Translation = "ESV";
+BLB.Tagger.HyperLinks = "all"; 
+BLB.Tagger.HideTranslationAbbrev = false;
+BLB.Tagger.TargetNewWindow = true;
+BLB.Tagger.Style = "par"; 
+</script>';
+}
+add_shortcode( 'bibly', 'custom_bibly' );
+?>
