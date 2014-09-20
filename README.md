@@ -1,4 +1,4 @@
 wp-muirlake
 ===========
 
-Muir Lake Community Website
+Muir Lake Community Website Theme and plugin repo
