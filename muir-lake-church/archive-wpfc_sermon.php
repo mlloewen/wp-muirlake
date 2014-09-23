@@ -9,7 +9,7 @@
 get_header(); ?>
 
 <div id="main">
-		<div id="container">
+		<div class="container">
 			<div id="content" role="main">
 				<?php
 				$sermon_settings = get_option('wpfc_options');
