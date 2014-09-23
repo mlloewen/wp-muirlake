@@ -799,6 +799,11 @@ CONTENT
 		box-shadow:         0px 4px 10px 0px rgba(177, 194, 187, 1);
 	}
 
+.promo_links a:active a:hover{
+	color: #34498a;
+	background: #fff;
+}
+
 	.large-link-image{
 		display: none;
 	}
