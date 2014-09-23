@@ -21,7 +21,7 @@
         .tab-links a {
             padding:9px 6px;
             display:inline-block;
-            border-radius:5px 5px 0px 0px;
+            border-radius:7px 7px 0px 0px;
  /*           transition:all linear 0.10s;  */
             
             border:1px solid #34498a; padding:3px 6px; background:#fff; font-size:14px; text-decoration:none; font-family: 'mistral';
@@ -44,7 +44,7 @@
     /*----- Content of Tabs -----*/
     .tab-content {
         padding:15px;
-        border-radius:3px;
+        border-radius:9px;
         box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
         border:1px solid #34498a;
         background:#fff;
