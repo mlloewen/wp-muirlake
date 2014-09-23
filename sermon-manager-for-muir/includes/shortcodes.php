@@ -29,7 +29,6 @@ function wpfc_list_sermons_shortcode( $atts = array () ){
 }
  
 // Display all series or speakers in a grid of images
-add_shortcode('sermon_images', 'wpfc_display_images_shortcode'); //preferrred markup
 add_shortcode('sermon-images', 'wpfc_display_images_shortcode'); //left for compatibility
 function wpfc_display_images_shortcode( $atts = array () ) {
 	extract( shortcode_atts( array(
@@ -272,7 +271,6 @@ function wpfc_display_sermons_shortcode($atts) {
 	$buffer = ob_get_clean();
 	return $buffer;
 }
-
 
 add_shortcode('sermon_sort_fields', 'wpfc_sermons_sorting_shortcode');
 function wpfc_sermons_sorting_shortcode($atts) {
