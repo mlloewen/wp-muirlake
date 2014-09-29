@@ -657,7 +657,7 @@ body{
 }
 
 h1{
-	text-transform: uppercase;
+	font-size: 30px;
 	font-weight: 700;
 }
 
@@ -671,7 +671,7 @@ h2{
 }
 
 h3{
-	text-transform: uppercase;
+	font-size: 25px;
 	font-weight: 700;
 }
 
@@ -1116,4 +1116,7 @@ LARGE VIEWPORT
 	#footer-content{
 		padding: 25px 0;
 	}
+}
+a{
+color: blue;
 }
