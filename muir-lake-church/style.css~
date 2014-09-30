@@ -671,7 +671,7 @@ h2{
 }
 
 h3{
-	font-size: 25px;
+	font-size: 10px;
 	font-weight: 700;
 }
 
@@ -1118,5 +1118,5 @@ LARGE VIEWPORT
 	}
 }
 a{
-color: blue;
+color: #34498a;
 }
