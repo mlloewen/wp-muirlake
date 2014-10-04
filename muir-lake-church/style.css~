@@ -660,7 +660,7 @@ h1{
 	font-size: 30px;
 	font-weight: 700;
 	color: #34498a;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 h2{
@@ -675,14 +675,14 @@ h2{
 h3{
 	font-size: 24px;
 	color: #34498a;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 	font-weight: 700;
 }
 
 h4{
 	font-weight: 700;
 	color: #34498a;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 p{
@@ -787,6 +787,11 @@ CONTENT
   margin: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
+}
+
+#main .container {
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
+  opacity: 0.95;
 }
 
 .promo-links{
@@ -1038,6 +1043,8 @@ LARGE VIEWPORT
 	.container{
 		width: 960px;
 		margin: 0px auto;
+		  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
+  opacity: 0.95;
 	}
 
 	.container-desktop-nav{
@@ -1126,4 +1133,8 @@ LARGE VIEWPORT
 }
 a{
 color: #34498a;
+}
+#main .container {
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
+  opacity: 0.95;
 }

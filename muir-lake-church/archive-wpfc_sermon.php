@@ -13,12 +13,8 @@ get_header(); ?>
 			<div id="content" role="main">
 				<?php
 				$sermon_settings = get_option('wpfc_options');
-				$archive_title = $sermon_settings['archive_title'];
-				if(empty($archive_title)):
-					$archive_title = 'Sermons';
-				endif; 
 				?>
-				<h2 class="page-title"><?php echo $archive_title; ?></h2>
+				<h2 class="page-title">Sermons</h2>
 				<?php render_wpfc_sorting(); ?>
 				<?php /* Display navigation to next/previous pages when applicable */ ?>
 				<?php if ( $wp_query->max_num_pages > 1 ) : ?>

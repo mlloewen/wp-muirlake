@@ -1038,6 +1038,8 @@ LARGE VIEWPORT
 	.container{
 		width: 960px;
 		margin: 0px auto;
+		  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
+  opacity: 0.95;
 	}
 
 	.container-desktop-nav{
