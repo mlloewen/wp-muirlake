@@ -660,7 +660,7 @@ h1{
 	font-size: 30px;
 	font-weight: 700;
 	color: #34498a;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 h2{
@@ -675,14 +675,14 @@ h2{
 h3{
 	font-size: 24px;
 	color: #34498a;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 	font-weight: 700;
 }
 
 h4{
 	font-weight: 700;
 	color: #34498a;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 p{
@@ -779,13 +779,13 @@ CONTENT
 	-webkit-box-shadow: 0px 4px 9px 0px rgba(177, 194, 187, 0.6);
 	-moz-box-shadow:    0px 4px 9px 0px rgba(177, 194, 187, 0.6);
 	box-shadow:         0px 4px 9px 0px rgba(177, 194, 187, 0.6);
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
 }
 
 #main article {
   margin: 0;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.8;
 }
 
