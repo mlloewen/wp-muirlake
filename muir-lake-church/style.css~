@@ -786,12 +786,7 @@ CONTENT
 #main article {
   margin: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
-  opacity: 0.8;
-}
-
-#main .container {
-	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 .promo-links{
@@ -968,7 +963,7 @@ MEDIUM VIEWPORT
 
 	#site-navigation a{
 		display: inline-block;
-		padding: 20px 10px;
+		padding: 15px 10px;
 	}
 
 	#site-navigation a:hover, a:active{
@@ -1073,7 +1068,7 @@ LARGE VIEWPORT
 	}
 
 	#site-navigation a{
-		padding: 15px 27px;
+		padding: 15px 20px;
 	}
 
 
@@ -1133,8 +1128,4 @@ LARGE VIEWPORT
 }
 a{
 color: #34498a;
-}
-#main .container {
-	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
-  opacity: 0.95;
 }
