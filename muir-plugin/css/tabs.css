@@ -3,7 +3,11 @@
 	width:100%;
 	display:inline-block;
 }
- 
+
+.tabs ul {
+	margin: 0 0 1.5em 1em;
+}
+
 /*----- Tab Links -----*/
 /* Clearfix */
 .tab-links:after {
@@ -56,3 +60,20 @@ float:left;
         .tab.active {
             display:block;
         }
+        
+.tab-title {
+	display: none;
+}
+@media screen and (min-width: 560px) {
+	.tab-title{
+		display: inline;
+	}
+}
+/*--------------------------------------------------------------
+MEDIUM VIEWPORT
+--------------------------------------------------------------*/
+@media screen and (min-width: 720px) {
+	.tabs ul {
+		margin: 0 0 1.5em 2em;
+	}
+}

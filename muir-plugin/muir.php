@@ -32,7 +32,9 @@ return '<script src="http://code.bib.ly/bibly.min.js"></script>
 function tabs_init( $atts, $content = null ) {
 global $tabsnum;
 return '<link async rel="stylesheet" href="' . plugins_url( 'muir-plugin/css/tabs.css' , dirname(__FILE__)) . '" type="text/css" />
-<script async src="' . plugins_url( 'muir-plugin/js/tabs.js' , dirname(__FILE__)) . '"></script><div class="tabs">
+<link async rel="stylesheet" href="' . plugins_url( 'muir-plugin/css/sermonicons.css' , dirname(__FILE__)) . '" type="text/css" />
+<script async src="' . plugins_url( 'muir-plugin/js/tabs.js' , dirname(__FILE__)) . '"></script>
+<div class="tabs">
 <ul class="tab-links">' . do_shortcode($content) . '</div>';
 }
 
@@ -42,11 +44,11 @@ function muir_tab_title( $atts, $content = null ) {
 		'title2' => 'false',
 		'title3' => 'false',
 	), $atts );
-	$return ='<li class="active"><a href="#tab1">' . esc_attr($a['title']) . '</a></li>';
+	$return ='<li class="active"><a href="#tab1"><span class="icon-summary"><div class="tab-title">' . esc_attr($a['title']) . '</div></span></a></li>';
 	if (esc_attr($a['title2']) !== 'false'){
-		$return = $return . '<li><a href="#tab2">' . esc_attr($a['title2']) .'</a></li>';
+		$return = $return . '<li><a href="#tab2"><span class="icon-notes"><div class="tab-title">' . esc_attr($a['title2']) .'</div></span></a></li>';
 		if (esc_attr($a['title3']) !== 'false'){
-			$return = $return . '<li><a href="#tab3">' . esc_attr($a['title3']) .'</a></li>';
+			$return = $return . '<li><a href="#tab3"><span class="icon-question"><div class="tab-title">' . esc_attr($a['title3']) .'</div></span></a></li>';
 	}
 	$return = $return . '</ul><div class="tab-content">';
    return $return;
