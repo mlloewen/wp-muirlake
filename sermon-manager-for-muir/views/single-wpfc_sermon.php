@@ -16,7 +16,6 @@ get_header(); ?>
 				<h2 class="entry-title">test<?php the_title(); ?></h2>>		
 				<?php render_wpfc_sermon_single(); ?>
 
-
 				<div class="entry-utility">
 					<?php edit_post_link( __( 'Edit', 'sermon-manager' ), '<span class="edit-link">', '</span>' ); ?>
 				</div><!-- .entry-utility -->

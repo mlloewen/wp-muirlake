@@ -87,8 +87,8 @@ function wpfc_podcast_add_item(){
 function wpfc_podcast_summary ($content) {
 	global $post;
 	//$content = '';
-	$content = strip_tags( get_wpfc_sermon_meta('sermon_description') ); 
-	//$content = wpautop(do_shortcode( get_wpfc_sermon_meta('sermon_description') ) );
+	//$content = strip_tags( get_wpfc_sermon_meta('sermon_description') ); 
+	$content = wpautop(do_shortcode( get_wpfc_sermon_meta('sermon_description') ) );
 	return $content;
 }
 

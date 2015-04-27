@@ -16,7 +16,6 @@
 				<h2>Contact</h2>
 				<div id="contact">
 					<p><strong>PHONE:</strong> 780.963.9975</p>
-					<p><strong>FAX:</strong> 780.963.5635</p>
 					<p><strong>EMAIL:</strong> <a href="mailto:info@muirlakealliance.ca" target="_blank">info@muirlakealliance.ca</a></p>
 					<p id="copyright-paragraph">© 2014 Muir Lake Alliance</p>	
 				</div><!-- #contact -->

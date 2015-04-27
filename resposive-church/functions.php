@@ -11,7 +11,17 @@
 if ( ! isset( $content_width ) ) {
 	$content_width = 640; /* pixels */
 }
-
+/*
+Custom menu item
+*/
+add_filter( 'wp_nav_menu_items', 'your_custom_menu_item' );
+function your_custom_menu_item ( $items ) {
+	$items .= '<li><a href="http://muirlakealliance.ca/sermons">Sermons</a></li>';
+/*	$items .= '<ul>';
+		$items .= '<li><a href="http://muirlakealliance.ca/sermons/how-he-speaks-part-1/">How He Speaks: Part 1</a></li>';
+	$items .= '</ul>'; */
+	return $items;
+}
 if ( ! function_exists( 'muir_lake_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -122,4 +132,6 @@ require get_template_directory() . '/inc/customizer.php';
 /**
  * Load Jetpack compatibility file.
  */
+/* 
 require get_template_directory() . '/inc/jetpack.php';
+*/

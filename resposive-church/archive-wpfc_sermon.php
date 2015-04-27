@@ -15,6 +15,8 @@ get_header(); ?>
 				$sermon_settings = get_option('wpfc_options');
 				?>
 				<h2 class="page-title">Sermons</h2>
+				<p><a class="anchor" href="http://muirlakealliance.ca/sermons/feed/" title="Podcast" rel="bookmark">PodCast</a></p>
+			
 				<?php render_wpfc_sorting(); ?>
 				<?php /* Display navigation to next/previous pages when applicable */ ?>
 				<?php if ( $wp_query->max_num_pages > 1 ) : ?>
@@ -54,9 +56,9 @@ get_header(); ?>
 
 						<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 							<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'sermon-manager' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-							<div class="m-button">
-							<p><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'sermon-manager' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">Sermon(audio, summary, notes, study questions)</a></p>
-							</div>
+						<!--	<div class="m-button"> -->
+							<p><a class="anchor" href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'sermon-manager' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">Sermon(audio, summary, notes, study questions)</a></p>
+						<!--	</div> -->
 
 							<!-- <div class="entry-meta">
 								<span class="meta-prep meta-prep-author">Preached on </span> <?php wpfc_sermon_date('l, F j, Y'); ?><span class="meta-sep"> by </span> <?php echo the_terms( $post->ID, 'wpfc_preacher', '', ', ', ' ' ); ?>

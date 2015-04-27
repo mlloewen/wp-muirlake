@@ -46,7 +46,7 @@ float:left;
  
     /*----- Content of Tabs -----*/
     .tab-content {
-        padding:15px;
+        padding:8px;
         border-radius:3px;
         box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
         border:1px solid #34498a;
@@ -58,11 +58,11 @@ float:left;
         }
  
         .tab.active {
-            display:block;
+            display:inline;
         }
         
 .tab-title {
-	display: none;
+	display: inline;
 }
 @media screen and (min-width: 560px) {
 	.tab-title{
@@ -74,6 +74,6 @@ MEDIUM VIEWPORT
 --------------------------------------------------------------*/
 @media screen and (min-width: 720px) {
 	.tabs ul {
-		margin: 0 0 1.5em 2.5em;
+		margin: 0 0 1.5em 2em;
 	}
 }
